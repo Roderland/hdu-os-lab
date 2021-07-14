@@ -1,0 +1,1 @@
+cmd_/home/roderland/new_modules/demo01/demo01.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/roderland/new_modules/demo01/demo01.ko /home/roderland/new_modules/demo01/demo01.o /home/roderland/new_modules/demo01/demo01.mod.o;  true
